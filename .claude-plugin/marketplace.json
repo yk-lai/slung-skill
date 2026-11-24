@@ -1,0 +1,19 @@
+{
+  "name": "slung-skill",
+  "owner": {
+    "name": "yk-lai"
+  },
+  "metadata": {
+    "description": "Slung: explain, rewrite or answer anything in casual, sweary, plain-structured English without losing a single fact.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "slung",
+      "description": "Explain, rewrite or answer in slung style (casual slang, swearing, main point first) with every real fact kept. Intensity levels: lite, full, unhinged.",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/slung"]
+    }
+  ]
+}
